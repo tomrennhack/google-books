@@ -11,7 +11,8 @@ app.use(express.json());
 
 // heroku prep
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
+  /*Adds the react production build to serve react requests*/
+  app.use(express.static(path.join(__dirname, "./client/build")));
 }
 
 // api routes
