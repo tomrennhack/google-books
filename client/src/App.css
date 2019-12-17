@@ -1,0 +1,87 @@
+#result-card {
+  padding: 20px;
+  border: solid 1px grey;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.title {
+  color: whitesmoke;
+  font-size: 1.5em;
+  margin: 0 10px;
+  font-weight: 400;
+}
+
+.nav-link {
+  font-size: 1em;
+  font-weight: 200;
+  border-radius: 5px;
+  border: solid 1px grey;
+  margin: 0 2px;
+}
+
+.navbar a {
+  color: grey;
+
+}
+
+.navbar a:hover {
+  color: whitesmoke;
+  border-color: whitesmoke;
+}
+
+#search-form {
+  margin: 15px 0;
+}
+
+.form {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: solid 1px grey;
+  margin-right: 5px;
+  color: grey;
+}
+
+.card-buttons {
+  margin-right: 5px;
+}
+
+.card-buttons a {
+  color: whitesmoke;
+}
+
+.card-buttons a:hover {
+  text-decoration: none;
+}
+
+img {
+  border: solid 1px grey;
+  height: 200px;
+  width: 140px;
+  object-fit: cover;
+  object-position: 0 0;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.descr {
+  font-size: .9em;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-weight: 200;
+}
+
+.saved-books-title {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  margin: 20px 0;
+}
